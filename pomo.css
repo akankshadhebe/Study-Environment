@@ -1,0 +1,159 @@
+html, body {
+
+  width: auto; 
+  height: auto; 
+  background-image: url(image/6570640.jpg);
+  background-size:100%;
+  background-repeat: no-repeat; 
+}
+header{
+  height: 100px;
+  right: 0%;
+  padding: 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation{
+  align-items: baseline;
+  display: flex;
+  
+}
+.navigation li{
+  list-style: none;
+  margin-left: 30px;
+}
+.navigation li a{
+  
+  font-size: 25px;
+  color: #FFFFFF;
+
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.title {
+  font-size: 110px;
+  /* font-family: 'Covered By Your Grace', cursive; */
+    font-family: 'Roboto', sans-serif;
+
+  /* height: 150px; */
+  /* width: 250px; */
+  /* min-height: 200px; */
+  /* line-height: 200px; */
+  /* color: #d95550; */
+  color: #ec9a9a;
+  text-align: center;
+  /* FONT BOLD */
+  font-weight: bold;
+
+}
+
+
+.clock{
+  zoom: 1.97;
+}
+
+.action-button {
+  zoom: 1.97;
+}
+
+
+.clock-title {
+  font-size: 64px;
+  /* font-family: 'Covered By Your Grace', cursive; */
+  font-family: 'Roboto', sans-serif;
+  color: #305308  !important;
+  /* FONT BOLD */
+  font-weight: bold;
+}
+
+.margin-top {
+  margin-top: 20px ;
+}
+
+.flip-clock-dot {
+  background-color: #305308 !important;
+  color: #305308 !important;
+}
+
+.flip-clock-divider .flip-clock-label {
+  font-size: 16px !important;
+  font-family: 'Roboto', sans-serif;
+  color: #305308 !important
+}
+
+.flip-clock-wrapper ul {
+  background: #FFFFFF;
+}
+
+.flip-clock-wrapper ul li a div.up:after {
+  background-color: #FFFFFF ;
+}
+
+.flip-clock-wrapper ul li a div div.inn {
+  color: #FFFFFF  !important;
+  text-shadow: 0 1px 1px #555 !important;
+  background-color: #305308 !important;
+}
+
+.session-clock, .break-clock {
+  display: inline-block ;
+  width: auto !important;
+}
+
+.btn-edit {
+  width: 64px;
+  font-size: 36px;
+  color: #305308;
+  border-style: solid;
+  border-color: #305308 !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .2s ease-in-out;
+  background-color: #305308 !important;
+  margin: 10px 0;
+}
+
+.btn-edit:hover {
+  background-color: #ec9a9a !important;
+  color: #ffffff83 !important;
+}
+
+.btn-edit:focus {
+  color: rgba(255, 255, 255, 0.623);
+  outline: none;
+}
+
+.btn-main {
+  width: 225px;
+  font-size: 36px;
+  color: #305308;
+  border-style: solid;
+  border-color: #305308 !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .2s ease-in-out;
+  background-color: #305308 !important;
+  margin: 10px 0;
+}
+
+.btn-main:hover {
+  background-color: #ec9a9a !important;
+  color: #ffffff93 !important;
+
+}
+
+.btn-main:focus {
+  color: rgba(255, 255, 255, 0.555);
+  outline: none;
+}
+.margin-right {
+  margin-right: 25px;
+}
+
+
+
