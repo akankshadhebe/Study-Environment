@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Workspace</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="image/logo.png" alt="LOGO">
+        <ul class="navigation">
+            <li><a href="pomodoro.html"> pomodoro </a></li>
+        </ul>
+        
+    </header>
+    <div class="elements">   
+<!-- images with audio -->
+    <audio 
+    id="Clock" src="music/Grandfather Clock Tick - QuickSounds.com.mp3" preload="auto" loop>
+    </audio> 
+        <img class="Clock" src="image/Clock1.png" style="cursor: pointer;" type="button" onclick="Clock()">
+
+    
+    <audio 
+    id="Window" src="music/Nature_Sounds_-_Canopy_Sounds_Birds__10_minutes_(256k).mp3" preload="auto" loop>
+    </audio> 
+        <img class="Window" src="image/window1.png" style="cursor: pointer;" type="button" onclick=" Window()">
+        <audio 
+        id="Study" src="music/Study_with_me_l_30_min_cozy_Lofi_music_late_night_🎧_light_academia_desk_motivation_to_study_📚(128k).mp3" preload="auto" loop>
+        </audio>
+            <img class="Study" src="image/Study.png" style="cursor: pointer;" type="button" onclick="Study()">
+    
+        
+        <audio 
+        id="Recordplayer" src="music/hindi_lofi.mp3" preload="auto" loop>
+     </audio>
+         <img class="Recordplayer" src="image/Recordplayer1.png" style="cursor: pointer;" type="button" onclick="Recordplayer()">
+         
+       
+        
+   
+    
+    </div>
+
+    <div class="todolist">
+        
+    </div>
+
+
+
+
+
+
+
+    <script>
+        var Darkmode = document.getElementById("Darkmode");
+        Darkmode.onclick = function(){
+            document.body.classList.toggle("dark-mode");
+            if(document.body.classList.ontains("dark-mode")){
+                Darkmode.src="image/darkmode.png";
+            }
+            else{
+                Darkmode.src="image/lightmode.png";
+            }
+        }
+    </script>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
